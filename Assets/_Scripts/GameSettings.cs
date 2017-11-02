@@ -4,9 +4,5 @@ using UnityEngine;
 
 public static class GameSettings {
 
-<<<<<<< HEAD
-	 
-=======
-	pubic 
->>>>>>> origin/Aad
+// fix this aad
 }
