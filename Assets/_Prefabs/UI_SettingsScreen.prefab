@@ -1462,6 +1462,7 @@ GameObject:
   - component: {fileID: 222454889054817638}
   - component: {fileID: 114209910851844130}
   - component: {fileID: 114612625905586870}
+  - component: {fileID: 114160978074015804}
   m_Layer: 5
   m_Name: UI_SettingsScreen
   m_TagString: Untagged
@@ -5637,6 +5638,17 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Scrollbar+ScrollEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114160978074015804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1345573439058468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44f24c1f8d7f3094db6429d3ddacd01f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114172969684566228
 MonoBehaviour:
   m_ObjectHideFlags: 1
