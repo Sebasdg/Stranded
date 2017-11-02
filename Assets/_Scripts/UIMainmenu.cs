@@ -1,16 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIMainmenu : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+	public GameObject _SettingsMenuPrefab;
+	public Transform _SettingsMenuTarget;
+	public Vector2 _SettingsMenuPos;
+
+	public void OpenSettings() {
+		if (_SettingsMenuTarget.childCount != 0)
+			return;
+
+		GameObject SettingsMenu = Instantiate(_SettingsMenuPrefab);
+		SettingsMenu.transform.SetParent(_SettingsMenuTarget);
+		SettingsMenu.GetComponent<RectTransform>().anchoredPosition = _SettingsMenuPos;
 	}
 }
